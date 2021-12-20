@@ -1,0 +1,794 @@
+{
+  "human ranges": [
+    {
+      "feature": "A1C_A",
+      "min": 0,
+      "max": 240
+    },
+    {
+      "feature": "A1C_V",
+      "min": 0,
+      "max": 240
+    },
+    {
+      "feature": "A1CB_A",
+      "min": 0,
+      "max": 24
+    },
+    {
+      "feature": "A1CB_V",
+      "min": 0,
+      "max": 24
+    },
+    {
+      "feature": "Age",
+      "min": 0,
+      "max": 120
+    },
+    {
+      "feature": "ALB_A",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "feature": "ALB_V",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "feature": "ALT_A",
+      "min": 0,
+      "max": 20000
+    },
+    {
+      "feature": "ALT_V",
+      "min": 0,
+      "max": 20000
+    },
+    {
+      "feature": "AST_A",
+      "min": 0,
+      "max": 20000
+    },
+    {
+      "feature": "AST_V",
+      "min": 0,
+      "max": 20000
+    },
+    {
+      "feature": "BMI",
+      "min": 10,
+      "max": 80
+    },
+    {
+      "feature": "BNP_A",
+      "min": 0,
+      "max": 10000
+    },
+    {
+      "feature": "BNP_V",
+      "min": 0,
+      "max": 10000
+    },
+    {
+      "feature": "BRE",
+      "min": 5,
+      "max": 100
+    },
+    {
+      "feature": "BUN_A",
+      "min": 2,
+      "max": 200
+    },
+    {
+      "feature": "BUN_V",
+      "min": 2,
+      "max": 200
+    },
+    {
+      "feature": "CAL_A",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "CAL_V",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "CKMB_A",
+      "min": 0,
+      "max": 10000
+    },
+    {
+      "feature": "CKMB_V",
+      "min": 0,
+      "max": 10000
+    },
+    {
+      "feature": "CO2t_A",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "feature": "CO2t_V",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "feature": "CPK_A",
+      "min": 0,
+      "max": 10000
+    },
+    {
+      "feature": "CPK_V",
+      "min": 0,
+      "max": 10000
+    },
+    {
+      "feature": "CRP_A",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "feature": "CRP_V",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "feature": "CRT_A",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "CRT_V",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "DBIL_A",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "DBIL_V",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "DBP",
+      "min": 20,
+      "max": 240
+    },
+    {
+      "feature": "DDM_A",
+      "min": 0,
+      "max": 50
+    },
+    {
+      "feature": "DDM_V",
+      "min": 0,
+      "max": 50
+    },
+    {
+      "feature": "FER_A",
+      "min": 0,
+      "max": 20000
+    },
+    {
+      "feature": "FER_V",
+      "min": 0,
+      "max": 20000
+    },
+    {
+      "feature": "FIB_A",
+      "min": 0,
+      "max": 1500
+    },
+    {
+      "feature": "FIB_V",
+      "min": 0,
+      "max": 1500
+    },
+    {
+      "feature": "FIO2",
+      "min": 20,
+      "max": 100
+    },
+    {
+      "feature": "GLU_A",
+      "min": 0,
+      "max": 2000
+    },
+    {
+      "feature": "GLU_V",
+      "min": 0,
+      "max": 2000
+    },
+    {
+      "feature": "HCO3_A",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "feature": "HCO3_V",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "feature": "HGB_A",
+      "min": 2,
+      "max": 25
+    },
+    {
+      "feature": "HGB_V",
+      "min": 2,
+      "max": 25
+    },
+    {
+      "feature": "IDBIL_A",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "IDBIL_V",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "INR_A",
+      "min": 0.5,
+      "max": 5
+    },
+    {
+      "feature": "INR_V",
+      "min": 0.5,
+      "max": 5
+    },
+    {
+      "feature": "LCT_A",
+      "min": 0.2,
+      "max": 15
+    },
+    {
+      "feature": "LCT_V",
+      "min": 0.2,
+      "max": 15
+    },
+    {
+      "feature": "LDH_A",
+      "min": 0,
+      "max": 50000
+    },
+    {
+      "feature": "LDH_V",
+      "min": 0,
+      "max": 50000
+    },
+    {
+      "feature": "LYM(#)_A",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "LYM(#)_V",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "LYM(%)_A",
+      "min": 0.2,
+      "max": 100
+    },
+    {
+      "feature": "LYM(%)_V",
+      "min": 0.2,
+      "max": 100
+    },
+    {
+      "feature": "NEU(#)_A",
+      "min": 0.1,
+      "max": 60
+    },
+    {
+      "feature": "NEU(#)_V",
+      "min": 0.1,
+      "max": 60
+    },
+    {
+      "feature": "NEU(%)_A",
+      "min": 0.2,
+      "max": 100
+    },
+    {
+      "feature": "NEU(%)_V",
+      "min": 0.2,
+      "max": 100
+    },
+    {
+      "feature": "NRBC(%)_A",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "feature": "NRBC(%)_V",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "feature": "OS_A",
+      "min": 50,
+      "max": 500
+    },
+    {
+      "feature": "OS_U",
+      "min": 50,
+      "max": 2000
+    },
+    {
+      "feature": "OS_V",
+      "min": 50,
+      "max": 500
+    },
+    {
+      "feature": "PCO2_A",
+      "min": 0,
+      "max": 150
+    },
+    {
+      "feature": "PCO2_V",
+      "min": 0,
+      "max": 150
+    },
+    {
+      "feature": "PEEP",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "PH_A",
+      "min": 6.6,
+      "max": 7.8
+    },
+    {
+      "feature": "PH_V",
+      "min": 6.6,
+      "max": 7.8
+    },
+    {
+      "feature": "PLT_A",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "feature": "PLT_V",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "feature": "PLTM_A",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "feature": "PLTM_V",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "feature": "PO2_A",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "feature": "PO2_V",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "feature": "POT_A",
+      "min": 1,
+      "max": 10
+    },
+    {
+      "feature": "POT_V",
+      "min": 1,
+      "max": 10
+    },
+    {
+      "feature": "PTSec_A",
+      "min": 5,
+      "max": 50
+    },
+    {
+      "feature": "PTSec_V",
+      "min": 5,
+      "max": 50
+    },
+    {
+      "feature": "PTT_A",
+      "min": 5,
+      "max": 200
+    },
+    {
+      "feature": "PTT_V",
+      "min": 5,
+      "max": 200
+    },
+    {
+      "feature": "PUL",
+      "min": 10,
+      "max": 300
+    },
+    {
+      "feature": "RBC_A",
+      "min": 1,
+      "max": 8
+    },
+    {
+      "feature": "RBC_V",
+      "min": 1,
+      "max": 8
+    },
+    {
+      "feature": "RDW_A",
+      "min": 5,
+      "max": 40
+    },
+    {
+      "feature": "RDW_V",
+      "min": 5,
+      "max": 40
+    },
+    {
+      "feature": "RRM",
+      "min": 1,
+      "max": 30
+    },
+    {
+      "feature": "RRP",
+      "min": 1,
+      "max": 60
+    },
+    {
+      "feature": "SBP",
+      "min": 40,
+      "max": 250
+    },
+    {
+      "feature": "SOD_A",
+      "min": 110,
+      "max": 200
+    },
+    {
+      "feature": "SOD_V",
+      "min": 110,
+      "max": 200
+    },
+    {
+      "feature": "SPO2R",
+      "min": 5,
+      "max": 100
+    },
+    {
+      "feature": "SUTUR",
+      "min": 5,
+      "max": 100
+    },
+    {
+      "feature": "SUTURO",
+      "min": 5,
+      "max": 100
+    },
+    {
+      "feature": "TBIL_A",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "TBIL_V",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "TMP",
+      "min": 20,
+      "max": 43
+    },
+    {
+      "feature": "TRG_A",
+      "min": 10,
+      "max": 2000
+    },
+    {
+      "feature": "TRG_V",
+      "min": 10,
+      "max": 2000
+    },
+    {
+      "feature": "TRP_A",
+      "min": 1,
+      "max": 40000
+    },
+    {
+      "feature": "TRP_V",
+      "min": 1,
+      "max": 40000
+    },
+    {
+      "feature": "TVM",
+      "min": 100,
+      "max": 1000
+    },
+    {
+      "feature": "TVP",
+      "min": 100,
+      "max": 3500
+    },
+    {
+      "feature": "VB1_A",
+      "min": 10,
+      "max": 100
+    },
+    {
+      "feature": "VB1_V",
+      "min": 10,
+      "max": 100
+    },
+    {
+      "feature": "VB12_A",
+      "min": 100,
+      "max": 2500
+    },
+    {
+      "feature": "VB12_V",
+      "min": 100,
+      "max": 2500
+    },
+    {
+      "feature": "WBC_A",
+      "min": 0.2,
+      "max": 100
+    },
+    {
+      "feature": "WBC_V",
+      "min": 0.2,
+      "max": 100
+    },
+    {
+      "feature": "WEI",
+      "min": 0,
+      "max": 250
+    },
+    {
+      "feature": "A1C",
+      "min": 0,
+      "max": 240
+    },
+    {
+      "feature": "A1CB",
+      "min": 0,
+      "max": 24
+    },
+    {
+      "feature": "ALB",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "feature": "ALT",
+      "min": 0,
+      "max": 20000
+    },
+    {
+      "feature": "AST",
+      "min": 0,
+      "max": 20000
+    },
+    {
+      "feature": "BNP",
+      "min": 0,
+      "max": 10000
+    },
+    {
+      "feature": "BUN",
+      "min": 2,
+      "max": 200
+    },
+    {
+      "feature": "CAL",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "CKMB",
+      "min": 0,
+      "max": 10000
+    },
+    {
+      "feature": "CO2t",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "feature": "CPK",
+      "min": 0,
+      "max": 10000
+    },
+    {
+      "feature": "CRP",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "feature": "CRT",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "DBIL",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "DDM",
+      "min": 0,
+      "max": 50
+    },
+    {
+      "feature": "FER",
+      "min": 0,
+      "max": 20000
+    },
+    {
+      "feature": "FIB",
+      "min": 0,
+      "max": 1500
+    },
+    {
+      "feature": "GLU",
+      "min": 0,
+      "max": 2000
+    },
+    {
+      "feature": "HCO3",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "feature": "HGB",
+      "min": 2,
+      "max": 25
+    },
+    {
+      "feature": "IDBIL",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "INR",
+      "min": 0.5,
+      "max": 5
+    },
+    {
+      "feature": "LCT",
+      "min": 0.2,
+      "max": 15
+    },
+    {
+      "feature": "LDH",
+      "min": 0,
+      "max": 50000
+    },
+    {
+      "feature": "LYM(#)",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "LYM(%)",
+      "min": 0.2,
+      "max": 100
+    },
+    {
+      "feature": "NEU(#)",
+      "min": 0.1,
+      "max": 60
+    },
+    {
+      "feature": "NEU(%)",
+      "min": 0.2,
+      "max": 100
+    },
+    {
+      "feature": "NRBC(%)",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "feature": "PCO2",
+      "min": 0,
+      "max": 150
+    },
+    {
+      "feature": "PH",
+      "min": 6.6,
+      "max": 7.8
+    },
+    {
+      "feature": "PLT",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "feature": "PLTM",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "feature": "PO2",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "feature": "POT",
+      "min": 1,
+      "max": 10
+    },
+    {
+      "feature": "PTSec",
+      "min": 5,
+      "max": 50
+    },
+    {
+      "feature": "PTT",
+      "min": 5,
+      "max": 200
+    },
+    {
+      "feature": "RBC",
+      "min": 1,
+      "max": 8
+    },
+    {
+      "feature": "RDW",
+      "min": 5,
+      "max": 40
+    },
+    {
+      "feature": "SOD",
+      "min": 110,
+      "max": 200
+    },
+    {
+      "feature": "TBIL",
+      "min": 0,
+      "max": 20
+    },
+    {
+      "feature": "TRG",
+      "min": 10,
+      "max": 2000
+    },
+    {
+      "feature": "TRP",
+      "min": 1,
+      "max": 40000
+    },
+    {
+      "feature": "VB1",
+      "min": 10,
+      "max": 100
+    },
+    {
+      "feature": "VB12",
+      "min": 100,
+      "max": 2500
+    },
+    {
+      "feature": "WBC",
+      "min": 0.2,
+      "max": 100
+    }
+  ]
+}
