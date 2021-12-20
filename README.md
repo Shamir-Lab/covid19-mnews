@@ -2,7 +2,6 @@
 
 Public repository containing research code for the COVID-19 prediction model, described in the manuscript 
 *"A Machine Learning Model for Predicting Deterioration of COVID-19 Inpatients"*  
-[ICLR 2021](https://mlpcp21.github.io/pages/Accepted%20Paper.html) 
 
 #### Authors:
 Omer Noy*, Dan Coster*, Maya Metzger, Itai Attar, Shani Shenhar-Tsarfaty, Shlomo Berliner, Galia Rahav, Ori Rogowski, Ron Shamir
@@ -32,13 +31,14 @@ Our data-specific parser generates 3 main pandas dataframes:
 * **`labs_df`** Lab tests (longitudinal features).
 
 #### Baseline dataframe format (Baseline_df):
-|   Columns           | Data type | 
-|---------------------|-----------|
-| Patient ID          | object    |
-| Gender              | bool      |
-| Age                 | float64   |
-| ...                 | String    |
-| Background diseases | bool      | 
+|   Columns           | Data type      | 
+|---------------------|----------------|
+| Patient ID          | object         |
+| Admission Date      | datetime64[ns] |
+| Gender              | bool           |
+| Age                 | float64        |
+| ...                 | String         |
+| Background diseases | bool           | 
 
 #### Longitudinal dataframes format (vital_df, labs_df):
 |   Columns    |   Data type    | 
@@ -48,5 +48,5 @@ Our data-specific parser generates 3 main pandas dataframes:
 | Feature Name | String         |
 | Value        | float64        | 
 
-With `data_preprocessing.py`, the dataframes can be merged and pivoted into a time-series format, 
+Using `data_preprocessing/create_time_series_data`, the dataframes can be merged and pivoted into a time-series format, 
 with columns representing features and rows representing the longitudinal patients' observations.
